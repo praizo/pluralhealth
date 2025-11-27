@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #edf0f8;
+  --foreground: #171717;
+}
+
+@theme {
+  --custom-text-400: #051438;
+  --custom-primary-400: #0b0c7d;
+  --font-sans: "gilroy", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "gilroy", sans-serif;
+}
+
+.custom-text-400 {
+  color: var(--custom-text-400);
+}
+
+.txt-primary {
+  @apply font-bold text-lg leading-5 tracking-normal;
+}
+
+.txt-secondary {
+  @apply font-bold text-base leading-[100%] tracking-normal;
+}
