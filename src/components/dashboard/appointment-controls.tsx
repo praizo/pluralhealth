@@ -118,7 +118,7 @@ export function AppointmentControls({
             <button
               onClick={() => onPageChange(Math.max(1, currentPage - 1))}
               disabled={currentPage === 1}
-              className="p-1 hover:bg-gray-100 rounded disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+              className="p-2 bg-white  hover:bg-gray-100 rounded disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
               aria-label="Previous page"
             >
               <Image src="/images/chevron-left-small.svg" alt="Previous" width={16} height={16} />
@@ -126,10 +126,10 @@ export function AppointmentControls({
             <button
               onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
               disabled={currentPage === totalPages || totalPages === 0}
-              className="p-1 hover:bg-gray-100 rounded disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+              className="p-2 bg-white  hover:bg-gray-50 rounded disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
               aria-label="Next page"
             >
-              <Image src="/images/chevron-right-small.svg" alt="Next" width={16} height={16} />
+              <Image src="/images/chevron-right-small.svg" alt="Next" width={16} height={16}  className='text-[#051438]'/>
             </button>
           </div>
         </div>
