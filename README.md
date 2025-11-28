@@ -10,6 +10,10 @@
 
 This project is a coding assessment submission for Plural Health. It is a web application for managing patients and appointments, built with Next.js and MongoDB.
 
+
+Figma: https://www.figma.com/design/Xe1TTzEPwbL4oEcbwv3ZYp/Plural-s-Test-File?node-id=2-4215&t=lGeBL3bEOets1gA2-0
+
+
 ## Overview
 
 The application allows users to:
